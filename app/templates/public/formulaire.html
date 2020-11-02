@@ -52,7 +52,8 @@ margin-left:20px;
             {document.getElementById("date_de_retour").style.display='block';}
         else if (choice_value=="courses")
             {document.getElementById("date_de_retour").style.display='block';}
-        else {document.getElementById("date_de_retour").style.display='none';}
+        else {document.getElementById("date_de_retour").style.display='none';
+            document.getElementById("heure_de_retour").value='null'}
         }
     window.addEventListener("load", function() {
         var now = new Date();
